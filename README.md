@@ -24,11 +24,18 @@ The dataset is available [on Kaggle](https://www.kaggle.com/datasets/sbhatti/new
 
 We do not include the dataset in this repository because it is too large. However, you can download the dataset from the links above and place it in the `data` directory.
 
+The dataset contains the following columns:
+- `Unnamed: 0` - index, can be ignored
+- `ID` - unique ID for each article (appears to be a generated UUID)
+- `Content` - the text content of the article
+- `Summary` - the summary of the article
+- `Dataset` - the dataset that the article came from (XSum, CNN/Daily Mail, Multi-News)
+
 ## Training Process/Roadmap
 
 This is a rough outline of the steps that we will take to train the model:
 
-- **Phase 1 - Data Acquisition and Refinement** 
+- **Phase 1 - Data Acquisition and Refinement** (see `phase_1.ipynb`)
     - [x] Obtain a dataset of news articles that includes the text content as well as a summary of each article. 
     - [ ] Explore the dataset to get a sense of the data, such as the number of articles, length of the articles and summaries, and distribution of topics and keywords.
     - [ ] Clean and preprocess the data to remove unnecessary characters, punctuation, and stop words. 
