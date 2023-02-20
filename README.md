@@ -42,7 +42,7 @@ This is a rough outline of the steps that we will take to train the model:
     - [ ] Tokenize the text into words or subwords, and create input sequences and output summaries.
 - **Phase 2 - Model Architecture Selection** 
     - [ ] Choose a deep learning model that is suitable for the task of summarization. 
-        - We will most likely go with a transformer-based model, such as BERT or T5.
+        - We will most likely go with a transformer-based model, such as BERT, T5, GPT-J, or GPT-Neo.
         - However, we could also look into an encoder-decoder model or a pointer-generator network. 
     - [ ] Define the architecture of the model, including the number of layers, hidden units, and embedding dimensions.
 - **Phase 3 - Model Training and Evaluation:** 
