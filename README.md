@@ -8,7 +8,6 @@ This is the repository for our team's CS 5530 project. The goal of this project 
 - [Dataset](#dataset)
 - [Training Process/Roadmap](#training-processroadmap)
 - [Results](#results)
-- [Setup](#setup)
 
 ## Team Members
 
@@ -22,6 +21,8 @@ This is the repository for our team's CS 5530 project. The goal of this project 
 The training dataset is a collection of news articles from 3 separate datasets (XSum, CNN/Daily Mail, Multi-News). The dataset contains 870,521 articles, each of which has a text content and a summary. The text content is the full article, and the summary is a short version of the article that summarizes the main points. 
 
 The dataset is available [on Kaggle](https://www.kaggle.com/datasets/sbhatti/news-summarization) and is licensed under a [CC0: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/) license. The dataset is also available on the [Hugging Face Datasets](https://huggingface.co/datasets/cnn_dailymail) library.
+
+We do not include the dataset in this repository because it is too large. However, you can download the dataset from the links above and place it in the `data` directory.
 
 ## Training Process/Roadmap
 
@@ -48,5 +49,3 @@ This is a rough outline of the steps that we will take to train the model:
     - [ ] Iterate through these steps until the model achieves satisfactory performance.
 
 ## Results
-
-## Setup
