@@ -19,7 +19,7 @@ This is the repository for our team's CS 5530 project. The goal of this project 
 
 ## Dataset
 
-The training dataset is a collection of news articles from the CNN/Daily Mail dataset. The dataset contains 287,113 articles, each of which has a text content and a summary. The text content is the full article, and the summary is a short version of the article that summarizes the main points. 
+The training dataset is a collection of news articles from 3 separate datasets (XSum, CNN/Daily Mail, Multi-News). The dataset contains 870,521 articles, each of which has a text content and a summary. The text content is the full article, and the summary is a short version of the article that summarizes the main points. 
 
 The dataset is available [on Kaggle](https://www.kaggle.com/datasets/sbhatti/news-summarization) and is licensed under a [CC0: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/) license. The dataset is also available on the [Hugging Face Datasets](https://huggingface.co/datasets/cnn_dailymail) library.
 
@@ -32,10 +32,7 @@ This is a rough outline of the steps that we will take to train the model:
 3. **Data splitting:** Split the dataset into training, validation, and test sets. The training set is used to train the model, the validation set is used to tune hyperparameters and monitor the model's performance, and the test set is used to evaluate the model's performance on unseen data.
 4. **Model selection and architecture:** Choose a deep learning model that is suitable for the task of summarization. This could be an encoder-decoder model, a transformer-based model, or a pointer-generator network. Define the architecture of the model, including the number of layers, hidden units, and embedding dimensions.
 5. **Model training and evaluation:** Train the model on the training set and monitor its performance on the validation set. Use techniques like early stopping and learning rate annealing to prevent overfitting and improve performance. Evaluate the model on the test set to get a final estimate of its performance.
-6. **Model deployment and inference:** Once the model is trained, deploy it in a production environment and use it to generate summaries for new articles. You can use techniques like beam search or greedy decoding to generate the summary.
 7. **Iterative improvement:** Finally, analyze the performance of the model and identify areas for improvement. This could involve collecting more data, tuning hyperparameters, or experimenting with different architectures. Iterate through these steps until the model achieves satisfactory performance.
-
-Note that Steps 6 and 7 may not be necessary for this project, since it is a learning exercise and not a production application.
 
 ## Results
 
