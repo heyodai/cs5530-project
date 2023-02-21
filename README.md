@@ -40,11 +40,11 @@ This is a rough outline of the steps that we will take to train the model:
     - [x] Explore the dataset to get a sense of the data, such as the number of articles, length of the articles and summaries, and distribution of topics and keywords.
     - [x] Clean and preprocess the data to remove unnecessary characters, punctuation, and stop words. 
     - [ ] Tokenize the text into words or subwords, and create input sequences and output summaries.
-- **Phase 2 - Model Architecture Selection** 
-    - [ ] Choose a deep learning model that is suitable for the task of summarization. 
+- **Phase 2 - Model Architecture Selection** (see `phase_2.ipynb`)
+    - [x] Choose a deep learning model that is suitable for the task of summarization. 
         - We will most likely go with a transformer-based model, such as BERT, T5, GPT-J, or GPT-Neo.
         - However, we could also look into an encoder-decoder model or a pointer-generator network. 
-    - [ ] Define the architecture of the model, including the number of layers, hidden units, and embedding dimensions.
+    - [x] Define the architecture of the model, including the number of layers, hidden units, and embedding dimensions.
 - **Phase 3 - Model Training and Evaluation** 
     - [ ] Split the dataset into training, validation, and test sets.
     - [ ] Train the model on the training set and monitor its performance on the validation set. 
