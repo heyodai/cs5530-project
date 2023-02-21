@@ -37,8 +37,8 @@ This is a rough outline of the steps that we will take to train the model:
 
 - **Phase 1 - Data Acquisition and Refinement** (see `phase_1.ipynb`)
     - [x] Obtain a dataset of news articles that includes the text content as well as a summary of each article. 
-    - [ ] Explore the dataset to get a sense of the data, such as the number of articles, length of the articles and summaries, and distribution of topics and keywords.
-    - [ ] Clean and preprocess the data to remove unnecessary characters, punctuation, and stop words. 
+    - [x] Explore the dataset to get a sense of the data, such as the number of articles, length of the articles and summaries, and distribution of topics and keywords.
+    - [x] Clean and preprocess the data to remove unnecessary characters, punctuation, and stop words. 
     - [ ] Tokenize the text into words or subwords, and create input sequences and output summaries.
 - **Phase 2 - Model Architecture Selection** 
     - [ ] Choose a deep learning model that is suitable for the task of summarization. 
