@@ -45,7 +45,7 @@ This is a rough outline of the steps that we will take to train the model:
         - We will most likely go with a transformer-based model, such as BERT, T5, GPT-J, or GPT-Neo.
         - However, we could also look into an encoder-decoder model or a pointer-generator network. 
     - [ ] Define the architecture of the model, including the number of layers, hidden units, and embedding dimensions.
-- **Phase 3 - Model Training and Evaluation:** 
+- **Phase 3 - Model Training and Evaluation** 
     - [ ] Split the dataset into training, validation, and test sets.
     - [ ] Train the model on the training set and monitor its performance on the validation set. 
         - [ ] Use techniques like early stopping and learning rate annealing to prevent overfitting and improve performance. 
