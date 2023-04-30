@@ -51,9 +51,9 @@ This is a rough outline of the steps that we will take to train the model:
         - [x] Use techniques like early stopping and learning rate annealing to prevent overfitting and improve performance. 
     - [x] Evaluate the model on the test set to get a final estimate of its performance.
 - **Phase 4 - Iterative Improvements** 
-    - [ ] Finally, analyze the performance of the model and identify areas for improvement. 
-    - [ ] This could involve collecting more data, tuning hyperparameters, or experimenting with different architectures. 
-    - [ ] Iterate through these steps until the model achieves satisfactory performance.
+    - [x] Finally, analyze the performance of the model and identify areas for improvement. 
+    - [x] This could involve collecting more data, tuning hyperparameters, or experimenting with different architectures. 
+    - [x] Iterate through these steps until the model achieves satisfactory performance.
 
 ## Results
 
