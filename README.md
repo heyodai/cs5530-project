@@ -1,6 +1,6 @@
 # CS 5530 - Team "Front of the Class"
 
-This is the repository for our team's CS 5530 project. The goal of this project is to create a text summarizer using deep learning. The model will be trained on a dataset of news articles and will be able to generate summaries for new articles.
+This is the repository for our team's CS 5530 project. The goal of this project was to create a news article text summarizer using deep learning. We explored the creation of a text summarizer using a transformer-based model, and we experimented with several different models to see which one performed the best.
 
 ## Table of Contents
 
@@ -8,6 +8,35 @@ This is the repository for our team's CS 5530 project. The goal of this project 
 - [Dataset](#dataset)
 - [Training Process/Roadmap](#training-processroadmap)
 - [Results](#results)
+
+## Submission Overview
+
+1. **Source code**
+    - We split the project work into 4 phases, and each phase has its own notebook. 
+    - The notebooks are located in the `notebooks` directory. 
+    - The *"Training Process/Roadmap"* section below contains a more detailed description of each phase.
+2. **Datasets**
+    - We did not include the datasets on GitHub because they are too large.
+    - To reproduce our results, create a directory called `data` in the root of the repository, then download the following:
+        - [raw.csv](https://drive.google.com/file/d/1wPYWk5mfTO3MuymdG4ZmcCcQfdx4W-GG/view?usp=sharing) - This is the raw dataset from Kaggle. See the *"Dataset"* section below for more information.
+        - [cleaned.csv](https://drive.google.com/file/d/1X_bgh4v4LHWivnlRTZtQlA8N2b9lgcjt/view?usp=share_link) - This is the cleaned dataset that we used for training. See the *"Phase 1 - Data Acquisition and Refinement"* section below for more information.
+3. **PowerPoint deck** - The PowerPoint presentation that we used in class is the `Presentation.pptx` file in the root of the repository.
+4. **README** - This README file contains information about the project, including the dataset, training process, and results.
+
+## Environment Setup
+
+We ran the notebooks using the `virtualenv` package. To set up the virtual environment, run the following commands:
+
+```bash
+# Create the virtual environment
+python3 -m venv venv
+
+# Activate the virtual environment
+source venv/bin/activate
+
+# Install the required packages
+pip install -r requirements.txt
+```
 
 ## Team Members
 
