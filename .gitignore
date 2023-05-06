@@ -1,5 +1,6 @@
 .DS_Store
 data
 env
+venv
 .ipynb_checkpoints
 cache
