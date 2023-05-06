@@ -4,6 +4,8 @@ This is the repository for our team's CS 5530 project. The goal of this project 
 
 ## Table of Contents
 
+- [Submission Overview](#submission-overview)
+- [Environment Setup](#environment-setup)
 - [Team Members](#team-members)
 - [Dataset](#dataset)
 - [Training Process/Roadmap](#training-processroadmap)
